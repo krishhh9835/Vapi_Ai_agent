@@ -1,0 +1,56 @@
+# ==========================================
+# Python Standard & Caches
+# ==========================================
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+.eggs/
+build/
+dist/
+wheels/
+
+# ==========================================
+# Virtual Environments
+# ==========================================
+.venv/
+venv/
+ENV/
+env/
+
+# ==========================================
+# Databases & Local Data (For your appointment.db)
+# ==========================================
+*.db
+*.sqlite3
+
+# ==========================================
+# Environment Variables & Secrets (Crucial for security)
+# ==========================================
+.env
+.env.*
+.venv
+.env.local
+
+# ==========================================
+# Python Tooling Caches (Ruff, Mypy, Pytest)
+# ==========================================
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+.uv/
+
+# ==========================================
+# IDEs and System Files
+# ==========================================
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# ==========================================
+# Dependency Lockfiles
+# ==========================================
+# Note: Keep uv.lock tracked if this is an application.
+# Uncomment the line below if this is a library package.
+# uv.lock

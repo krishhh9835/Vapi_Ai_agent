@@ -1,0 +1,23 @@
+[project]
+name = "project-ai-agent"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Krish", email = "25f1002466@ds.study.iitm.ac.in" }
+]
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.141.1",
+    "ngrok>=1.4.0",
+    "sqlalchemy>=2.0.54",
+    "streamlit>=1.64.0",
+    "uvicorn>=0.53.0",
+]
+
+[project.scripts]
+project-ai-agent = "project_ai_agent:main"
+
+[build-system]
+requires = ["uv_build>=0.12.15,<0.13.0"]
+build-backend = "uv_build"
